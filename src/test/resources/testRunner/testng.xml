@@ -12,8 +12,8 @@
 
         <classes>
             <class name="HubSpotTests.LoginPageTest"/>
-           <!--  <class name="HubSpotTests.HomePageTest"/>
-            <class name="HubSpotTests.ContactPageTest"/> -->
+             <class name="HubSpotTests.HomePageTest"/>
+            <class name="HubSpotTests.ContactPageTest"/> 
         </classes>
     </test>
 
