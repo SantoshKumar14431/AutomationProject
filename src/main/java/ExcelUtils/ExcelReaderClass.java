@@ -34,7 +34,6 @@ public class ExcelReaderClass {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 		catch (IOException e) {
 			e.printStackTrace();
 		}

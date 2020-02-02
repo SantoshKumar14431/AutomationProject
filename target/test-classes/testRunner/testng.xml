@@ -1,11 +1,21 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Hub Spot Test Suite" verbose="1">
-    <test name="Hub Spot Regression Tests" >     
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Hub Spot TestSuite" verbose="3" parallel="classes" thread-count="3">
+
+
+<listeners>
+		<listener class-name="HubSpotListeners.ExtentReportListener" />
+	</listeners>
+   
+    <test name="HubSpot Sanity Test Suite" enabled="true">
+
         <classes>
             <class name="HubSpotTests.LoginPageTest"/>
-            <class name="HubSpotTests.HomePageTest"/>
-            <class name="HubSpotTests.ContactPageTest"/>
+           <!--  <class name="HubSpotTests.HomePageTest"/>
+            <class name="HubSpotTests.ContactPageTest"/> -->
         </classes>
     </test>
+
 </suite>
 

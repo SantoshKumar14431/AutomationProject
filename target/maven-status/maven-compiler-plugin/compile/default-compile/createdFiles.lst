@@ -1,8 +1,7 @@
-HubSpotBase\OptionsManager.class
 HubSpotPages\ContactPage.class
 ExcelUtils\ExcelReaderClass.class
 DataBase\dataBaseTesting.class
-HubSpotBase\GridSetup.class
+HubSpotListeners\ExtentReportListener.class
 HubSpotPages\LoginPage.class
 HubSpotUtil\ElementUtil.class
 HubSpotBase\BasePage.class
